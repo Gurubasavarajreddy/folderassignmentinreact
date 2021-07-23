@@ -1,0 +1,51 @@
+
+.main{
+    display: flex;
+    width:100%;
+    background-color: darkseagreen;
+    flex-wrap: wrap;
+}
+.main>h1{
+    width: 100%;   
+}
+
+.block{
+    display: flex;
+    /* width:40%; */
+    min-width:40%;
+  justify-content:center;
+margin: 5%;
+}
+.block>div{
+    width:100%;
+}
+.main_right{
+    background-color: aquamarine;
+    
+}
+.main_left>*{
+    text-align: unset;
+    
+}
+.main_left{
+    background-color: green;
+    overflow-x: auto;
+}
+.centers{
+    display: flex;
+    justify-content:center;
+}
+.folder_blocks{
+ display: flex;
+ flex-direction:column;
+}
+.folder_blocks_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main_left_one{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}

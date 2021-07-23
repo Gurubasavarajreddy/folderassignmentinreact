@@ -1,0 +1,2 @@
+export const ADD_FOLDER="ADD_FOLDER";
+export const SELECTED_FOLDER="SELECTED_FOLDER";
