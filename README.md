@@ -1,6 +1,6 @@
 # Pull the code from repository
 
-we are storing code in github repsotory so we need to clone the code to local machine using folloing commands
+we are storing code in github repsotory so we need to clone the code into local machine using folloing commands
  git clone /path/to/repository
  
 # install nodejs 
